@@ -40,6 +40,7 @@ public class DisjointSet {
      */
     DisjointSet(int noOfNodes) {
         this.noOfNodes = noOfNodes;
+        //To allow 1 based indexing taking one node extra
         parents = new int[noOfNodes+1];
         rank = new int[noOfNodes+1];
         size = new int[noOfNodes+1];

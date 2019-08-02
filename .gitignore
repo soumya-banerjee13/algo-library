@@ -1,4 +1,7 @@
 /target
+.project
+.classpath
+**/*.class
 **/hackerrank/*
 **/hackerearth/*
 **/codechef/*
